@@ -39,3 +39,8 @@
 - Login
 
 ![QQ20240527120755.png](https://s2.loli.net/2024/05/27/1aozyxHJSGKjUrR.png)
+
+## PS
+
+If any of the demo resources affect your legal rights (such as copyrights), please contact me and I will remove the relevant content.
+
