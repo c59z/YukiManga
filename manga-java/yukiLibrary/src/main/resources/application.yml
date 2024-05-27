@@ -1,0 +1,40 @@
+server:
+  port: 7777
+
+spring:
+  datasource:
+    # 这里的url一定要修改，不然前端无法访问后端的代码
+    url: jdbc:mysql://192.168.1.107:3306/yuki_library?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+#    url: jdbc:mysql://127.0.0.1:3306/yuki_library?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: ayase
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#  security:
+#    user:
+#      name: user
+#      password: 123qwe
+#  jackson:
+#    default-property-inclusion: non_null
+#    date-format: yyyyMMdd HH:mm:ss
+#    time-zone: GMT+8
+
+  servlet:
+    multipart:
+      max-file-size: 500MB
+      max-request-size: 1024MB
+mybatis-plus:
+  configuration:
+    # 日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-field: delFlag
+      logic-delete-value: 1
+      logic-not-delete-value: 0red
+      id-type: auto
+  mapper-locations: classpath*:/mapper/**/*.xml
+
+
+user:
+  filepath: D:/code/Project/java/前后端分离-漫画系统/libraryServer/
+#  filepath: /home/yuki/libraryServer

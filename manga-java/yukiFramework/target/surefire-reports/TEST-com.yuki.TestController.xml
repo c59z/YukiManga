@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="0" failures="0" name="com.yuki.TestController" time="0" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="IBM Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="18.0.2+9"/>
+    <property name="user.name" value="chin shikou"/>
+    <property name="openjdk.methodhandles" value="true"/>
+    <property name="java.compiler" value="j9jit29"/>
+    <property name="os.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="user.language" value="zh"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="D:\java_IBM_18\bin\default;D:\java_IBM_18\bin"/>
+    <property name="idea.version" value="2022.2.2"/>
+    <property name="sun.boot.library.path" value="D:\java_IBM_18\bin\default;D:\java_IBM_18\bin"/>
+    <property name="classworlds.conf" value="D:\JetBrains\idea\IntelliJ IDEA 2022.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="jdk.extensions.version" value="18.0.2.1"/>
+    <property name="java.version" value="18.0.2"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="com.ibm.system.agent.path" value="D:\java_IBM_18\bin"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="D:\JetBrains\idea\IntelliJ IDEA 2022.2.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.class.version" value="62.0"/>
+    <property name="user.country" value="CN"/>
+    <property name="java.home" value="D:\java_IBM_18"/>
+    <property name="java.vm.info" value="JRE 18 Windows 11 amd64-64-Bit Compressed References 20220817_36 (JIT enabled, AOT enabled)
+OpenJ9   - 1d9d16830
+OMR      - b58aa2708
+JCL      - 8406c39ea29 based on jdk-18.0.2+9"/>
+    <property name="os.version" value="10.0"/>
+    <property name="jdk.boot.class.path.append" value=""/>
+    <property name="sun.nio.MaxDirectMemorySize" value="-1"/>
+    <property name="java.awt.fonts" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="openj9-0.33.1"/>
+    <property name="user.variant" value=""/>
+    <property name="maven.ext.class.path" value="D:\JetBrains\idea\IntelliJ IDEA 2022.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.nio.PageAlignDirectMemory" value="false"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="sun.stdout.encoding" value="GBK"/>
+    <property name="user.home" value="C:\Users\chin shikou"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="java.library.path" value="D:\java_IBM_18\bin\default;D:\java_IBM_18\bin;C:\Windows\system32;C:\Windows;D:\Vmware\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Calibre2\;D:\Java_path\bin;D:\MySql\mysql-8.0.29-winx64\bin;D:\ProgrammingEnvironment\nodejs\;C:\Program Files\Git\cmd;C:\Windows\System32;;D:\Tool\WeiXinTool\微信web开发者工具\dll;C:\Users\chin shikou\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\chin shikou\AppData\Local\Programs\Python\Python310\;C:\Users\chin shikou\AppData\Local\Microsoft\WindowsApps;C:\Users\chin shikou\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\chin shikou\AppData\Local\atom\bin;C:\Users\chin shikou\AppData\Roaming\npm;."/>
+    <property name="java.vendor.url" value="https://www.ibm.com/semeru-runtimes"/>
+    <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
+    <property name="java.fullversion" value="18.0.2+9
+JRE 18 Windows 11 amd64-64-Bit Compressed References 20220817_36 (JIT enabled, AOT enabled)
+OpenJ9   - 1d9d16830
+OMR      - b58aa2708
+JCL      - 8406c39ea29 based on jdk-18.0.2+9"/>
+    <property name="maven.home" value="D:\JetBrains\idea\IntelliJ IDEA 2022.2.2\plugins\maven\lib\maven3"/>
+    <property name="java.runtime.name" value="IBM Semeru Runtime Open Edition"/>
+    <property name="java.lang.invoke.VarHandle.VAR_HANDLE_GUARDS" value="false"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.2 -s D:\Maven\apache-maven-3.5.2\conf\settings.xml install"/>
+    <property name="java.class.path" value="D:\JetBrains\idea\IntelliJ IDEA 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;D:\JetBrains\idea\IntelliJ IDEA 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;D:\JetBrains\idea\IntelliJ IDEA 2022.2.2\lib\idea_rt.jar"/>
+    <property name="native.encoding" value="GBK"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.io.tmpdir" value="C:\Users\CHINSH~1\AppData\Local\Temp\"/>
+    <property name="java.vendor.url.bug" value="https://github.com/ibmruntimes/Semeru-Runtimes/issues"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\code\Project\java\前后端分离-漫画系统\manga-java"/>
+    <property name="ibm.system.encoding" value="GBK"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="user.dir" value="D:\code\Project\java\前后端分离-漫画系统\manga-java"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="sun.stderr.encoding" value="GBK"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.specification.version" value="18"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="java.vendor.version" value="18.0.2.1"/>
+  </properties>
+</testsuite>

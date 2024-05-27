@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yuki.mapper.SysMangaProgressMapper">
+    <select id="getMangaProressRowId" resultType="java.lang.Integer">
+        select id from sys_manga_progress where userId = #{userId} and mangaId = #{mangaId}
+    </select>
+    <select id="getMangaProressId" resultType="java.lang.Integer">
+        select progress from sys_manga_progress where userId = #{userId} and mangaId = #{mangaId}
+    </select>
+    <select id="getMangaByProgress" resultType="com.yuki.domain.entity.SysBookinfo">
+        select
+            *
+        from
+            sys_manga_progress mp
+                left join sys_bookinfo book
+                          on mp.mangaId = book.id
+        where mp.progress = #{progress}
+          and mp.userId = #{userId}
+    </select>
+
+</mapper>
